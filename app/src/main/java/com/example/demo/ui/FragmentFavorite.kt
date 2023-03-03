@@ -69,6 +69,6 @@ class FragmentFavorite : Fragment() {
 
     override fun onDestroy() {
         super.onDestroy()
-        context?.let { favItemViewModel.destroyDbInstance() }
+        favItemViewModel.destroyDbInstance()
     }
 }
