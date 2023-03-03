@@ -1,10 +1,12 @@
 package com.example.demo.db
 
 import android.content.Context
+import android.util.Log
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import com.example.demo.ui.FragmentItemDetailDialog.Companion.TAG
 import com.example.demo.utils.Constants.ITEM_DB
 import java.util.concurrent.locks.Lock
 
@@ -31,6 +33,7 @@ abstract class DataBaseFavItem : RoomDatabase() {
 
         fun destroyInstance() {
             INSTANCE = null
+            Log.i(TAG, "destroyInstance: Successful")
         }
     }
 }
