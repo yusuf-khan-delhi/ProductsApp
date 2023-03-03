@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Products App</string>
+    <string name="show_item_list">Show Item List</string>
+    <string name="show_favourites">Show favourites</string>
+    <string name="product_image">This is Product image.</string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="add_to_fav">Add to favorites</string>
+    <string name="added_to_favorites">"Item added to favorites"</string>
+    <string name="already_added_to_favorites">"Item already added to favorites"</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="close_dialog">close dialog</string>
+    <string name="no_fav_items_yet">No Favorite items available!</string>
+</resources>
